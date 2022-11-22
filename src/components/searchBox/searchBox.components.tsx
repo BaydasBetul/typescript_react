@@ -22,7 +22,6 @@ import { ChangeEvent } from "react"; // ChangeEventHandler,
 type SearchBoxProps = {
   className: string;
   placeholder?: string;
-  // func: ChangeEventHandler;
   onChangeHandler:(event: ChangeEvent<HTMLInputElement>) => void
 }
 
